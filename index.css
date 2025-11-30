@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    background-color: rgb(21, 20, 20);
+}
+
+.data-container {
+    margin-top: 50px;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.score-info, .auto-button {
+    color: white;
+    border: 1px solid green;
+    background-color: transparent;
+    height: 40px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.5s;
+}
+
+.auto-button img{
+    display: none;
+    width: 40%;
+}
+
+.auto-button:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.score-info div {
+    margin-left: 9px;
+}
+
+.choose-play-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 50px;
+}
+
+.choose-play {
+    width: 280px;
+    height: 330px;
+    overflow: hidden;
+    transition: transform 0.4s, box-shadow 0.2s;
+    flex-shrink: 0;
+}
+
+.choose-play-ice img {
+    width: 225px;
+    margin-left: 30px;
+}
+
+.choose-play-pyro img {
+    width: 330px;
+}
+
+.choose-play-hydro img {
+    width: 330px;
+    position: absolute;
+    top: 8px;
+    left: -50px;
+}
+
+.choose-play:hover {
+    transform: scale(1.05);
+}
+
+.choose-play-ice {
+    background-color: aliceblue;
+}
+
+.choose-play-ice:hover {
+    box-shadow: -15px -15px rgb(166, 125, 255);
+}
+
+.choose-play-pyro {
+    background-color: rgb(255, 128, 128);
+}
+
+.choose-play-pyro:hover {
+    box-shadow: -15px -15px rgb(245, 0, 0);
+}
+
+.choose-play-hydro {
+    background-color: rgb(138, 222, 255);
+    position: relative;
+}
+
+.choose-play-hydro:hover {
+    box-shadow: -15px -15px rgb(0, 115, 255);
+}
+
+.battle-results img {
+    height: 180px;
+    width: 180px;
+}
+
+.battle-results {
+    display: flex;
+    justify-content: center;
+    gap: 34px;
+}
+
+.result {
+    color: white;
+    font-size: 40px;
+    margin-top: 40px;
+}
