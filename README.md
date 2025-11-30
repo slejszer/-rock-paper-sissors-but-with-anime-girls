@@ -1,4 +1,4 @@
-**Pyro** beats **Cryo**
+$${\color{red}{**Pyro**}} beats **Cryo**
 
 **Hydro** beats **Pyro**
 
